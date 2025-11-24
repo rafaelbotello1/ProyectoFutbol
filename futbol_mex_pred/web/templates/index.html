@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicciones - Liga MX</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Predicciones de Partidos - Liga MX</h1>
+
+    <form method="POST" action="/actualizar">
+        <button class="actualizar-btn" type="submit">Actualizar Predicciones</button>
+    </form>
+
+    <div class="container">
+        {% if predicciones %}
+            {% for p in predicciones %}
+                <div class="card" onclick="mostrarGrafica('{{ loop.index0 }}')">
+                    <h2>{{ p.local }} vs {{ p.visitante }}</h2>
+                    <p><strong>Fecha:</strong> {{ p.fecha }}</p>
+                    <p><strong>Prob. Local:</strong> {{ p.prob_local_gana }}</p>
+                    <p><strong>Prob. Empate:</strong> {{ p.prob_empate }}</p>
+                    <p><strong>Prob. Visitante:</strong> {{ p.prob_visitante_gana }}</p>
+                    <canvas id="grafica-{{ loop.index0 }}" class="grafica" style="display:none;"></canvas>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No hay predicciones disponibles.</p>
+        {% endif %}
+    </div>
+
+<script>
+    function mostrarGrafica(id) {
+        const canvas = document.getElementById('grafica-' + id);
+        const visible = canvas.style.display === 'block';
+        document.querySelectorAll('.grafica').forEach(c => c.style.display = 'none');
+
+        if (!visible) {
+            canvas.style.display = 'block';
+            if (!canvas.dataset.graficaCargada) {
+                const probs = JSON.parse('{{ predicciones | tojson | safe }}');
+                const p = probs[id];
+                const ctx = canvas.getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Local', 'Empate', 'Visitante'],
+                        datasets: [{
+                            label: 'Probabilidades',
+                            data: [p.prob_local_gana, p.prob_empate, p.prob_visitante_gana],
+                            backgroundColor: ['#4CAF50', '#FFC107', '#F44336']
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: { beginAtZero: true, max: 1 }
+                        }
+                    }
+                });
+                canvas.dataset.graficaCargada = true;
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

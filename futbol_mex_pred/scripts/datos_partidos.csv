@@ -1,0 +1,111 @@
+local,visitante,fecha,pos_local,pos_visitante,gf_local,gf_visitante,local_gana,empate,visitante_gana
+Queretaro,Leon,01/07/2024,8,18,24,27,0,0,1
+Pumas,Puebla,02/07/2024,5,2,21,35,0,0,1
+Queretaro,Chivas,03/07/2024,4,7,12,17,1,0,0
+Juarez,Tigres,04/07/2024,9,5,15,26,0,0,1
+Juarez,Tijuana,05/07/2024,13,13,23,18,0,0,1
+Tijuana,Juarez,06/07/2024,11,14,35,29,0,1,0
+Puebla,America,07/07/2024,16,15,19,29,0,0,1
+Tigres,Atlas,08/07/2024,4,1,14,19,1,0,0
+Necaxa,Pumas,09/07/2024,1,15,10,11,0,1,0
+America,Atlas,10/07/2024,8,10,19,33,0,0,1
+Santos,Leon,11/07/2024,4,15,10,32,1,0,0
+Leon,Atlas,12/07/2024,14,14,11,14,0,0,1
+Puebla,Leon,13/07/2024,14,18,12,31,0,1,0
+Santos,Juarez,14/07/2024,1,2,27,34,0,0,1
+Puebla,Toluca,15/07/2024,15,14,14,24,0,0,1
+Juarez,Puebla,16/07/2024,7,7,14,33,1,0,0
+Leon,San Luis,17/07/2024,5,13,17,18,1,0,0
+Puebla,Chivas,18/07/2024,5,9,13,24,1,0,0
+Leon,America,19/07/2024,8,5,25,24,0,0,1
+Atlas,Puebla,20/07/2024,11,8,24,14,1,0,0
+Tigres,America,21/07/2024,10,14,25,24,0,1,0
+San Luis,America,22/07/2024,9,13,24,10,0,0,1
+America,Leon,23/07/2024,8,6,15,13,0,1,0
+Mazatlan,Atlas,24/07/2024,1,5,19,30,1,0,0
+Tijuana,Atlas,25/07/2024,17,4,30,31,0,1,0
+San Luis,Pumas,26/07/2024,2,11,15,15,0,0,1
+San Luis,Mazatlan,27/07/2024,7,14,20,29,1,0,0
+Puebla,Tigres,28/07/2024,12,12,25,34,0,0,1
+Puebla,Tigres,29/07/2024,3,16,25,32,1,0,0
+Tigres,Santos,30/07/2024,14,1,15,15,0,1,0
+Chivas,Leon,31/07/2024,15,9,14,19,0,1,0
+Tijuana,Chivas,01/08/2024,6,1,11,22,1,0,0
+Toluca,Puebla,02/08/2024,16,12,18,34,1,0,0
+Necaxa,Puebla,03/08/2024,3,7,10,18,1,0,0
+Santos,San Luis,04/08/2024,13,11,29,16,0,1,0
+Tijuana,Queretaro,05/08/2024,18,13,24,18,1,0,0
+Chivas,Puebla,06/08/2024,6,14,33,18,0,1,0
+America,Queretaro,07/08/2024,4,13,33,32,0,1,0
+Cruz Azul,Tijuana,08/08/2024,4,3,19,16,0,0,1
+Chivas,Puebla,09/08/2024,3,14,11,20,0,0,1
+Tigres,Toluca,10/08/2024,17,4,10,14,1,0,0
+Tigres,Mazatlan,11/08/2024,16,3,21,12,0,0,1
+Pumas,Queretaro,12/08/2024,13,13,35,24,0,0,1
+Juarez,Cruz Azul,13/08/2024,3,18,16,35,0,0,1
+Santos,Tijuana,14/08/2024,12,15,31,35,1,0,0
+Tijuana,Toluca,15/08/2024,12,4,15,27,0,0,1
+Necaxa,Queretaro,16/08/2024,15,6,13,26,0,1,0
+Toluca,Atlas,17/08/2024,12,17,19,35,0,0,1
+Tijuana,Juarez,18/08/2024,12,8,21,22,1,0,0
+Chivas,Necaxa,19/08/2024,11,1,11,10,1,0,0
+Pumas,Atlas,20/08/2024,18,3,24,11,0,1,0
+Juarez,San Luis,21/08/2024,5,3,34,35,1,0,0
+Juarez,Santos,22/08/2024,18,13,31,26,1,0,0
+Puebla,Pumas,23/08/2024,5,9,15,13,1,0,0
+Juarez,Necaxa,24/08/2024,11,8,25,24,1,0,0
+Mazatlan,Necaxa,25/08/2024,8,14,32,30,0,0,1
+Puebla,Cruz Azul,26/08/2024,3,3,35,12,0,0,1
+Juarez,Necaxa,27/08/2024,11,14,10,27,0,1,0
+Mazatlan,Santos,28/08/2024,7,7,33,31,0,0,1
+Tigres,San Luis,29/08/2024,16,15,11,19,0,1,0
+Santos,Juarez,30/08/2024,13,5,29,18,0,0,1
+Leon,San Luis,31/08/2024,11,10,23,17,1,0,0
+Tijuana,Queretaro,01/09/2024,16,9,28,21,0,0,1
+Tijuana,San Luis,02/09/2024,16,6,28,12,1,0,0
+Queretaro,Tigres,03/09/2024,13,17,34,12,1,0,0
+Cruz Azul,Toluca,04/09/2024,1,17,24,27,0,0,1
+San Luis,Leon,05/09/2024,1,18,16,15,0,0,1
+Cruz Azul,Mazatlan,06/09/2024,12,17,28,13,1,0,0
+Pumas,Toluca,07/09/2024,3,3,17,29,0,1,0
+Tigres,Juarez,08/09/2024,18,3,22,33,0,1,0
+Necaxa,Tigres,09/09/2024,5,5,26,14,0,1,0
+Chivas,America,10/09/2024,9,18,26,10,0,0,1
+Atlas,Chivas,11/09/2024,17,5,24,10,0,0,1
+Tijuana,San Luis,12/09/2024,10,10,19,13,1,0,0
+Chivas,Puebla,13/09/2024,11,2,16,33,0,0,1
+Juarez,Tigres,14/09/2024,5,15,10,31,1,0,0
+Mazatlan,Santos,15/09/2024,16,4,28,19,0,1,0
+Leon,Chivas,16/09/2024,18,15,10,17,1,0,0
+Atlas,Juarez,17/09/2024,13,15,19,24,0,1,0
+Queretaro,Tigres,18/09/2024,14,8,32,16,0,1,0
+Pumas,Juarez,19/09/2024,7,8,26,23,0,1,0
+Toluca,Leon,20/09/2024,3,3,30,18,0,1,0
+Mazatlan,Pumas,21/09/2024,11,14,10,18,1,0,0
+Toluca,Mazatlan,22/09/2024,17,13,21,30,1,0,0
+Atlas,Toluca,23/09/2024,15,11,31,19,0,0,1
+Santos,Toluca,24/09/2024,10,8,16,21,1,0,0
+Santos,Mazatlan,25/09/2024,11,10,12,24,1,0,0
+Juarez,Necaxa,26/09/2024,11,3,35,26,0,0,1
+San Luis,Juarez,27/09/2024,5,4,10,22,1,0,0
+San Luis,Mazatlan,28/09/2024,13,1,13,17,0,1,0
+Tigres,America,29/09/2024,15,17,35,24,0,1,0
+Toluca,Leon,30/09/2024,14,9,34,33,1,0,0
+Chivas,Santos,01/10/2024,15,15,12,35,0,0,1
+Tigres,Queretaro,02/10/2024,2,4,28,35,1,0,0
+Chivas,Tijuana,03/10/2024,1,13,23,13,1,0,0
+Necaxa,Tijuana,04/10/2024,13,2,26,27,0,1,0
+Chivas,Juarez,05/10/2024,7,2,20,25,1,0,0
+Necaxa,Puebla,06/10/2024,5,4,19,27,0,0,1
+Cruz Azul,Toluca,07/10/2024,6,3,28,18,1,0,0
+Queretaro,Leon,08/10/2024,13,2,11,25,0,1,0
+Santos,Pumas,09/10/2024,4,7,29,22,1,0,0
+San Luis,Tijuana,10/10/2024,14,2,12,19,0,1,0
+Chivas,Puebla,11/10/2024,5,10,16,25,0,1,0
+Leon,Cruz Azul,12/10/2024,6,5,32,15,1,0,0
+Atlas,Santos,13/10/2024,14,6,21,15,0,0,1
+Mazatlan,America,14/10/2024,8,5,25,16,1,0,0
+Toluca,Santos,15/10/2024,17,5,25,20,1,0,0
+Leon,Cruz Azul,16/10/2024,5,1,16,35,0,1,0
+Mazatlan,Tigres,17/10/2024,5,9,26,29,1,0,0
+Pumas,Cruz Azul,18/10/2024,13,11,29,23,0,0,1
